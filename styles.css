@@ -1,0 +1,158 @@
+body{
+    margin: 0px;
+}
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 82px;
+    position: fixed;
+    background-color: peru;
+    z-index: 2;
+}
+.image{
+    width: 20%; 
+}
+.list{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.list>div{
+    font-size: 120%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    padding: 1%; 
+}
+
+.list>div:hover{
+    border-top: 3px solid darkcyan;
+    color: darkgrey;
+}
+.list>div a{
+    text-decoration: none;
+    font-size: 20px;
+    display:inline-block;
+}
+#subItems{
+    position: absolute;
+    top: 90%; 
+    left: 65%;
+    display: none;
+}
+ #items:hover + span{
+    display: flex !important;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 8rem;
+    width: 15%;
+    padding:0% 2%;
+    border: 1px solid black;
+    background-color: white;
+}
+#subItems:hover{
+    display: flex !important;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 8rem;
+    width: 15%;
+    padding:0% 2%;
+    border: 1px solid black;
+    background-color: white;
+    
+} 
+#subItems p:hover{
+    display: flex !important;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    color: goldenrod;
+    background-color: black;
+    font-size: 120%;
+    width: 100%;
+}
+.para {
+    display: flex;
+    position: relative;
+    top: 4rem;
+}
+.description{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.description>div{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.icons{
+    text-align: center;
+    margin-top: 2%;
+}
+.icon{
+    font-size: 250%; 
+    margin: 1% 4%;
+}
+.IMG{
+    width: 50%;
+}
+.IMG i:hover{
+    color: gray;
+}
+.buttons{
+    position: relative;
+    top: 4rem;
+    background-color: gray;
+    padding: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons button{
+    border: none;
+    padding: 1%;
+    font-size: 110%;
+    color: black;
+    margin: 2%;
+    border-radius: 5px;
+}
+.buttons button:hover{
+    color: gray;
+}
+footer{
+    position: relative;
+    top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: cadetblue;
+    color: white;
+}
+footer div{
+    text-align: center;
+    color: white;
+}
+h4{
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+/* .main{
+    width: 100vw;
+    height: 30vh;
+    background-color: rgb(250, 249, 249);
+}
+.subMain{
+    margin: 40px 0px 0px 150px;
+}
+.footer{
+    text-align: center;
+} */
